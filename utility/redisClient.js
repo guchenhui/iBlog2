@@ -1,7 +1,8 @@
 var redis = require('redis');
 var config = require('../config');
 // use custom redis url or localhost
-var client = redis.createClient(process.env.REDIS_URL);
+var REDIS_URL = "redis://h:p0c2b9bedf7e4fa9df488a28de803c990930ef1415058f2d7b2a29c41d9381317@ec2-184-72-246-90.compute-1.amazonaws.com:13309"
+var client = redis.createClient(REDIS_URL);
 client.on('error', function (err) {
     console.error('Redis连接错误: ' + err);
     process.exit(1);
