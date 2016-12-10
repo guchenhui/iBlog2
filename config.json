@@ -1,5 +1,3 @@
 {
-  "DbPath": "mongodb://<guchenhui>:<gch19940411>@ds127928.mlab.com:27928/gchblog",
-  "RedisHost": "127.0.0.1",
-  "RedisPort": 6379
+  "DbPath": "mongodb://<guchenhui>:<gch19940411>@ds127928.mlab.com:27928/gchblog"
 }
