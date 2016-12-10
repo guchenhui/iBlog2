@@ -2,5 +2,4 @@ node_modules/
 *.log
 public/libs
 .idea/
-config/
-config.*
+config
