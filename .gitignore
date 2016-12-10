@@ -2,4 +2,6 @@ node_modules/
 *.log
 public/libs
 .idea/
+config/
+.gitignore
 config
