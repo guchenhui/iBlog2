@@ -1,7 +1,7 @@
 node_modules/
 public/libs
 .idea/
-config/
+#config/
 .gitignore
-/config.json
+#/config.json
 
