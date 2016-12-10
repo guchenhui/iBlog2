@@ -4,4 +4,4 @@ public/libs
 .idea/
 config/
 .gitignore
-config
+config.json
